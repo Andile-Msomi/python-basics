@@ -1,3 +1,5 @@
+print("would you like to add or subtract")
+operation = input()
 print("please enter your first number")
 num1 = int(input())
 print("please enter your second number")
@@ -8,3 +10,4 @@ if num2 > 0:
     print(num1/num2)
 else:
     print("you cannot divide by zero")
+
